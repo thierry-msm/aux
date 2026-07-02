@@ -1,15 +1,13 @@
-# Ignora tudo por padrão
-*
+# Ignora tudo no diretório raiz
+/*
 
-# Não ignora o .gitignore
-!.gitignore
+# Permite o .gitignore e as pastas das questões
+!/.gitignore
+!/questao01/
+!/questao02/
+!/questao03/
 
-# Não ignora as pastas das questões
-!questao01/
-!questao02/
-!questao03/
-
-# Ignora arquivos temporários e compilados dentro das pastas permitidas
+# Ignora arquivos temporários e de compilação em qualquer nível
 **/__pycache__/
 **/*.pyc
 **/*.pyo
