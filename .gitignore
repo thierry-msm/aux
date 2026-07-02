@@ -1,0 +1,17 @@
+# Ignora tudo por padrão
+*
+
+# Não ignora o .gitignore
+!.gitignore
+
+# Não ignora as pastas das questões
+!questao01/
+!questao02/
+!questao03/
+
+# Ignora arquivos temporários e compilados dentro das pastas permitidas
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.DS_Store
